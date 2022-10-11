@@ -73,6 +73,10 @@
 .sidebar ul li a.active {
     background-color: #f6f6f6;
 }
+.sidebar ul li a:hover i,
+.sidebar ul li a.active i {
+    color: var(--blue-color);
+}
 .sidebar ul li a span {
     display: none;
 }
